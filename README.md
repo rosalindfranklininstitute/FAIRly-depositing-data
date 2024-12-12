@@ -1,37 +1,46 @@
-# python-template
+# Depositing biological segmentation datasets FAIRly
 
-This is an example python repository that can be used as a template for other projects
+This repository holds the data of the surveyed studies and Jupyter notebooks for analysis for the publication
 
-![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
-[![Building](https://github.com/rosalindfranklininstitute/python-template/actions/workflows/python-package.yml/badge.svg)](https://github.com/rosalindfranklininstitute/python-template/actions/workflows/python-package.yml)
+
+## Data
+
+The data for the surveyed studies is in the `FAIRly_Depositing_Segmentation.csv` file.
 
 ## Installation
 
-You can install the package by running the following commands:
+The conda environment with the dependencies to run the notebooks can be recreated by:
+
+1. Cloning this repository
 
 ```
-pip install -e .
+git clone https://github.com/rosalindfranklininstitute/FAIRly-depositing-data.git
 ```
 
-## Testing
-
-You can run the package tests by running the following commands:
+2. Creating a conda environment from the env.yaml file
 
 ```
-pip install .[test]
-pytest
+conda create -f <path_to_cloned_repo>/env.yaml
+```
+
+3. Activate the conda environment
+
+```
+conda activate analysis
+```
+
+4. Launch Jupyter notebooks
+
+```
+jupyter notebook
 ```
 
 ## Issues
 
-Please use the [GitHub issue tracker](https://github.com/rosalindfranklininstitute/python-template/issues) to submit bugs or request features.
-
-## Contributions
-
-If you would like to help contribute to python-template, please read our [contribution](CONTRIBUTING.md) guide and [code of conduct](CODE_OF_CONDUCT.md).
+Please use the [GitHub issue tracker](https://github.com/rosalindfranklininstitute/python-template/issues) to submit bugs.
 
 ## License
 
 Copyright Rosalind Franklin Institute, 2024.
 
-Distributed under the terms of the Apache-2.0 license, python-template is free and open source software.
+Distributed under the terms of the Apache-2.0 license, this repository is free and open source software.
