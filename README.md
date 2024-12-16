@@ -1,7 +1,8 @@
 # Depositing biological segmentation datasets FAIRly
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rosalindfranklininstitute/FAIRly-depositing-data.git/HEAD)
 
-This repository holds the data of the surveyed studies and Jupyter notebooks for analysis for the publication
-
+This repository holds the data of the surveyed studies and Jupyter notebooks for analysis for the publication ["Depositing biological segmentation datasets FAIRly"](https://doi.org/10.1101/2024.12.10.627814).
+The notebooks can be launched with the Binder link above or to run locally please follow the instructions below.
 
 ## Data
 
