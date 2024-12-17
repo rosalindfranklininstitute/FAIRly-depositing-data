@@ -21,7 +21,7 @@ git clone https://github.com/rosalindfranklininstitute/FAIRly-depositing-data.gi
 2. Creating a conda environment from the env.yaml file
 
 ```
-conda create -f <path_to_cloned_repo>/env.yaml
+conda env create -f <path_to_cloned_repo>/env.yaml
 ```
 
 3. Activate the conda environment
